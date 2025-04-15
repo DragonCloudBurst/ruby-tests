@@ -21,3 +21,17 @@ Dir.chdir("C:\\")
 test_1 = Dir.chdir("C:\\ruby_test_1")
 directory = Dir.pwd
 puts directory
+
+# conditional statements
+x = 1
+y = 1
+z = 2
+statement = if x == y then puts(x + y) end
+
+# functions
+def runBlock
+  puts "i ran this block!"
+end
+
+runBlock
+
